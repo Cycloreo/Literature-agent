@@ -51,7 +51,7 @@ To run this agent 24/7 on an AWS EC2 instance (Ubuntu):
 2. Use Screen to keep it running after logout:
     screen -S paper_bot
     python3 discord_bot.py
-    # Press Ctrl+A then D to detach
+    Press Ctrl+A then D to detach
 
 📜 License
 This project is intended for academic research assistance. Please ensure compliance with journal terms of service when using scraping features.
