@@ -37,13 +37,12 @@ literature_agent/
    PUSH_CHANNEL_ID: The ID of the Discord channel for paper notifications.
 
 🤖 Discord Commands
-Command             Usage                             Description
-!list_config     !list_config              Displays current RSS feeds and interests.
-!add_interest    !add_interest <keyword>   Adds a new topic to monitor.
-!add_rss         !add_rss <url>            Adds a new journal RSS feed.
-!force_push      !force_push               Manually triggers the daily scan immediately.
-!deep            !deep <ID>                Deeply analyzes a paper from the daily list by its ID.
-!deep            !deep (+ PDF File)        Analyzes a PDF file you drag-and-drop into the chat.
+1. !list_config: Displays current RSS feeds and interests.
+2. !add_interest <keyword>: Adds a new topic to monitor.
+3. !add_rss <url>: Adds a new journal RSS feed.
+4. !force_push: Manually triggers the daily scan immediately.
+5. !deep <ID>: Deeply analyzes a paper from the daily list by its ID.
+6. !deep (+ PDF File): Analyzes a PDF file you drag-and-drop into the chat.
 
 ☁️ Deployment Note (AWS)
 To run this agent 24/7 on an AWS EC2 instance (Ubuntu):
