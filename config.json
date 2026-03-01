@@ -1,0 +1,14 @@
+{
+    "rss_feeds": [
+        "https://www.nature.com/nmat.rss",
+        "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat",
+        "https://advanced.onlinelibrary.wiley.com/feed/15214095/most-recent",
+        "https://www.nature.com/nature.rss"
+    ],
+    "research_interests": [
+        "Nanomaterials",
+        "Chalcogenides",
+        "Perovskites",
+        "Quantum Dots"
+    ]
+}
