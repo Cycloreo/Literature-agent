@@ -1,5 +1,7 @@
 🔬 Literature Agent: Automated Research Assistant
+
 An intelligent, 24/7 Discord bot that monitors academic RSS feeds, filters for specific research interests using Gemini AI, and provides structured deep-dives into papers via web scraping or PDF uploads.
+
 
 🌟 Key Features
 1. Automated Daily Push: Scans configured RSS feeds (Nature, ACS, Wiley, etc.) every 24 hours (default: 9:00 AM PST/17:00 UTC) for new articles.
@@ -12,15 +14,25 @@ An intelligent, 24/7 Discord bot that monitors academic RSS feeds, filters for s
 6. Smart Numbering: Papers in the daily push are numbered (e.g., #1, #2) so you can trigger a deep analysis simply by typing !deep 1.
 
 🛠️ Project Structure
+
 literature_agent/
+
 │
+
 ├── discord_bot.py       # Main entry point; handles Discord interactions and background tasks
+
 ├── config.json          # Stores your RSS feeds and research interest keywords
+
 ├── daily_papers.json    # Temporary cache for mapping paper IDs to URLs
+
 │
+
 ├── fetcher/             # Module for data acquisition
+
 │   └── rss_parser.py    # Fetches and filters RSS feed entries by date
+
 │
+
 └── llm/                 # Module for AI analysis
     └── gemini_client.py # Interfaces with Gemini API for relevance and deep reading
 
@@ -53,4 +65,5 @@ To run this agent 24/7 on an AWS EC2 instance (Ubuntu):
     Press Ctrl+A then D to detach
 
 📜 License
-This project is intended for academic research assistance. Please ensure compliance with journal terms of service when using scraping features.
+  
+  This project is intended for academic research assistance. Please ensure compliance with journal terms of service when using scraping features.
